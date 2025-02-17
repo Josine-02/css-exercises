@@ -1,3 +1,5 @@
+/* * {outline: 3px solid red} */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -16,13 +18,48 @@ body {
 }
 
 .modal {
+  padding: 20px;
+  display: flex;
+  /* gap: 16px; */
+  /* why? */
+
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.right{
+  margin:0px;
+  padding:0px;
+  /* gap: 10px; */
+} 
+ .right-middle{
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.header{
+  display: flex;
+  text-align: start;
+
+  font-size: large;
+  font-weight: 700;
+}
+
 .icon {
+  flex-shrink:0;
+  margin-right: 20px;
+
   color: royalblue;
   font-size: 26px;
   font-weight: 700;

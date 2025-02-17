@@ -8,9 +8,31 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  /* margin-bottom: 32px; was specifieker geweest misschien */
   font-size: 36px;
   font-weight: 900;
 }
+
+.one,.two,.three,.four {
+  width: 200px; height: auto;
+  /* max-width had ook gekunt en height was niet nodig in dit geval */
+}
+
+.plants {
+  display:flex;
+  /* flex-direction: row; waarom is dit nooit nodig??*/
+  justify-content: center;
+  gap: 52px;
+}
+
+.text{
+  text-align: center;
+}
+/* bovenstaande had ook gekunt bij body{} */
+
 
 /* do not edit this footer */
 .footer {

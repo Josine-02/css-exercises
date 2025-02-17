@@ -2,6 +2,36 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+.header  {
+display: flex;
+/* flex-direction: row;
+align-items: center; */
+justify-content: space-between;
+padding: 10px;
+}
+
+.items-left{
+  display: flex;
+  /* justify-content: start; */
+  align-items: center;
+}
+
+.items-right {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+  align-items: center;
+  gap: 10px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 0px;
+  gap:10px;
+}
+
 body {
   margin: 0;
   background: #eee;
@@ -15,6 +45,8 @@ body {
 }
 
 .profile-image {
+  display: flex;
+  flex-shrink: 0;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
